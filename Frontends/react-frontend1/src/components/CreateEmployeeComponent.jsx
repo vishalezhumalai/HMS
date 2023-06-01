@@ -101,17 +101,17 @@ class CreateEmployeeComponent extends Component {
                                     <form>
                                         <div className = "form-group">
                                             <label> Doctor Name: </label>
-                                            <input placeholder="Patient Name" name="firstName" className="form-control" 
+                                            <input placeholder="Doctor Name" name="firstName" className="form-control" 
                                                 value={this.state.firstName} onChange={this.changeFirstNameHandler}/>
                                         </div>
                                         <div className = "form-group">
                                             <label> Specialisation: </label>
-                                            <input placeholder="Attendant Name" name="lastName" className="form-control" 
+                                            <input placeholder="Specialization" name="lastName" className="form-control" 
                                                 value={this.state.lastName} onChange={this.changeLastNameHandler}/>
                                         </div>
                                         <div className = "form-group">
                                             <label> Designation: </label>
-                                            <input placeholder="Case Study" name="emailId" className="form-control" 
+                                            <input placeholder="Designation" name="emailId" className="form-control" 
                                                 value={this.state.emailId} onChange={this.changeEmailHandler}/>
                                         </div>
                                         
@@ -127,7 +127,7 @@ class CreateEmployeeComponent extends Component {
                                                 value={this.state.experience} onChange={this.changeExperienceHandler}/>
                                         </div>
 
-                                        <button className="btn btn-success" onClick={this.saveOrUpdateEmployee}>Save Patient</button>
+                                        <button className="btn btn-success" onClick={this.saveOrUpdateEmployee}>Save Doctor</button>
                                         <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{marginLeft: "10px"}}>Cancel</button>
                                     </form>
                                 </div>
