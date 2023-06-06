@@ -12,19 +12,19 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(name = "first_name")
+	@Column(name = "first_name")//doc name
 	private String firstName;
 
-	@Column(name = "last_name")
+	@Column(name = "last_name")// specialization
 	private String lastName;
 	
-	@Column(name = "email_id")
+	@Column(name = "email_id")//desig
 	private String emailId;
 	
-	@Column(name = "doj")
+	@Column(name = "doj")//date of joining
 	private Date doj;
 	
-	@Column(name = "experience")
+	@Column(name = "experience")//experience
 	private String experience;
 	
 	
